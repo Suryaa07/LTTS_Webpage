@@ -29,8 +29,9 @@ A basic registration module implemented as a web application. Users can register
 
 2. Install dependencies:
    ```bash
-   cd basic-registration-module
-   npm install
+   npm init -y
+   npm install express mongoose nodemailer body-parser
+
    ```
 
 4. Run the application:
