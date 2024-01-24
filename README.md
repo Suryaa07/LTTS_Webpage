@@ -33,12 +33,9 @@ A basic registration module implemented as a web application. Users can register
    npm install
    ```
 
-3. Configure the environment variables:
-   - Create a `.env` file in the backend folder and add the necessary configurations like MongoDB connection string, email service credentials, etc.
-
 4. Run the application:
    ```bash
-   npm start
+   node server.js
    ```
 
 5. Open your browser and navigate to `http://localhost:3000` to access the registration module.
@@ -53,7 +50,5 @@ A basic registration module implemented as a web application. Users can register
 6. Provide your registered email and click "Login."
 7. If the user is registered, a welcome screen will appear with the user's name.
 
-#### Note:
-- Ensure that you have Node.js and MongoDB installed on your system.
-- Customize the project according to your needs, such as email service configuration, database setup, or UI enhancements.
+
 
