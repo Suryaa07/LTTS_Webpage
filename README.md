@@ -1,9 +1,9 @@
 # LTTS_Webpage
 
-**Project Title: Basic Registration Module**
+# Project Title: Basic Registration Module
 
 ### Technologies Used:
-- Frontend: HTML, CSS, JavaScript (React for UI)
+- Frontend: HTML, CSS, JavaScript
 - Backend: Node.js, Express
 - Database: MongoDB
 
