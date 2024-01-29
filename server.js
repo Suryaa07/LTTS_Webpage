@@ -24,8 +24,8 @@ const User = mongoose.model("User", userSchema);
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: "suryaan007@gmail.com", 
-    pass: "omlm tysz virr lxwc", 
+    user: process.env.GMAIL_USER,
+    pass: process.env.GMAIL_PASS,
   },
 });
 
